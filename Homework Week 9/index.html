@@ -13,11 +13,11 @@
   
   
   <!-- The div where your point map will be embedded -->
-  <div id="symbol_map"></div>
+  <div id="symbolmap"></div>
 
   <script type="text/javascript">
     var spec2 = "js/subscribers_views.vl.json";  // Link to your JSON spec for the map
-    vegaEmbed('#symbol_map', spec2).then(function(result) {
+    vegaEmbed('#symbolmap', spec2).then(function(result) {
       // Access the Vega view instance as result.view
     }).catch(console.error);
   </script>
